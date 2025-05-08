@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The House Of Pizza</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fffaf3; }
+    header { background-color: #e63946; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+    nav a { margin: 0 15px; text-decoration: none; color: #333; font-weight: bold; }
+    section { display: none; padding: 20px; }
+    .active { display: block; }
+    .menu-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    .menu-table th, .menu-table td { border: 1px solid #ddd; padding: 10px; text-align: left; vertical-align: top; }
+    .menu-table th { background-color: #ffecd1; }
+    .menu-img { width: 100px; height: auto; border-radius: 8px; }
+    .best-seller { background-color: #fff4cc; border-left: 4px solid orange; }
+  .style29 {
+	font-size: 16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+  .style32 {display: block; font-size: 36px; }
+  .style33 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1 align="center"><img src="logo.png" width="190" height="182"> <span class="style32">The House Of Pizza</span></h1>
+    <nav>
+      <a href="#" onClick="showPage('home')">Home</a>
+      <a href="#" onClick="showPage('about')">About Us</a>
+      <a href="#" onClick="showPage('menu')">Our Menu</a>
+      <a href="#" onClick="showPage('contact')">Contact Us</a>
+      <a href="#" onClick="showPage('order')">Order Now</a>    </nav>
+  </header>
+
+  <section id="home" class="active">
+    <h2>Selamat datang di The House Of Pizza!</h2>
+    <p class="style29">Nikmati rasa otentik pizza rumahan dengan kualitas terbaik dan pelayanan hangat khas keluarga.</p>
+    <p class="style29">Kami hadir untuk menghadirkan momen kebersamaan yang lezat dari meja makan kami ke meja makanmu.</p>
+    <p class="style29">&nbsp;</p>
+    <p><strong>Kenapa Harus Pilih The House Of Pizza?</strong></p>
+    <p>&#9989; Fresh from the oven &ndash; pizza dipanggang langsung setelah kamu pesan, bukan dipanaskan ulang<br>
+      &#9989; Bahan berkualitas &ndash; kami hanya pakai bahan segar, saus buatan sendiri, dan keju premium<br>
+      &#9989; Harga ramah di kantong &ndash; nikmati pizza enak tanpa bikin dompet nangis<br>
+      &#9989; Suasana rumahan &ndash; cocok buat makan bareng teman, keluarga, atau pasangan</p>
+    <p>&nbsp;</p>
+    <p>Pesan Sekarang, Nikmati Dalam 30 Menit</p>
+    <p>Lagi mager? Kami yang antar.<br>
+      Tinggal klik tombol Order Now, pilih pizza favoritmu, dan tunggu kehangatan datang ke rumahmu.<br>
+      30 menit sampai atau pizza gratis</p>
+    <p>&nbsp;</p>
+    <p class="style33">Rasakan Pizza Cerah, Selezat Senyumanmu~</p>
+    <p>Dengan warna-warni topping segar dan semangat pelayanan penuh energi, kami hadir buat mencerahkan harimu.<br>
+      Pizza bukan cuma makanan &mdash; dia adalah kebahagiaan dalam bentuk lingkaran</p>
+    <p class="style29">&nbsp;</p>
+  </section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p class="style29">Berdiri sejak tahun 2015, The House Of Pizza berkomitmen untuk menghadirkan pengalaman makan pizza yang tak terlupakan.</p>
+  <p class="style29">Kami percaya bahwa pizza terbaik adalah yang disajikan hangat, penuh cinta, dan dengan sentuhan rumahan.</p>
+  <p class="style29">Selama bertahun-tahun, kami terus menjaga kualitas bahan, rasa otentik, dan pelayanan ramah agar setiap pelanggan merasa seperti di rumah sendiri.</p>
+  <p class="style29">The House Of Pizza bukan sekadar tempat makan - tapi tempat di mana kehangatan keluarga dan kenikmatan pizza berpadu menjadi satu.</p>
+</section>
+
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <table class="menu-table">
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+      </tr>
+      <tr class="best-seller">
+        <td><img src="pepperonipizza.jpeg" alt="Pepperoni" width="170" height="172"></td>
+        <td>Pepperoni Pizza</td>
+         <td><strong>BEST SELLER!</strong> Pizza dengan topping pepperoni pedas yang berpadu dengan keju mozzarella, saus tomat yang kaya rasa, serta adonan pizza yang renyah di setiap gigitan.</td>
+        <td>Rp164.850</td>
+      </tr>
+      <tr class="best-seller">
+        <td><img src="cheesepizza.jpeg" alt="Cheese Overload" width="170" height="172"></td>
+        <td>Cheese Overload Pizza</td>
+         <td><strong>BEST SELLER!</strong> Pizza dengan tiga jenis keju yaitu mozzarella, cheddar, dan parmesan yang melimpah, memberikan pengalaman rasa gurih yang luar biasa dan tekstur keju yang creamy.</td>
+        <td>Rp149.850</td>
+      </tr>
+      <tr class="best-seller">
+        <td><img src="bbqchicken.jpeg" alt="BBQ Chicken" width="170" height="172"></td>
+        <td>BBQ Chicken Pizza</td>
+         <td><strong>BEST SELLER!</strong> Pizza dengan topping ayam panggang yang dibalut saus BBQ manis dan pedas, serta taburan bawang bombay dan keju mozzarella yang meleleh di atasnya.</td>
+        <td>Rp172.350</td>
+      </tr>
+      <tr>
+        <td><img src="hawai.jpeg" alt="Hawaiian" width="170" height="172"></td>
+        <td>Hawaiian Pizza</td>
+        <td>Pizza dengan kombinasi ham yang lembut dan potongan nanas manis yang segar, menciptakan rasa seimbang antara gurih dan manis dalam setiap suapan.</td>
+        <td>Rp142.350</td>
+      </tr>
+      <tr>
+        <td><img src="veggie.jpeg" alt="Veggie" width="170" height="172"></td>
+        <td>Veggie Delight Pizza</td>
+        <td>Pizza dengan topping sayuran segar seperti tomat, paprika, jamur, dan zaitun, yang disusun di atas keju mozzarella, cocok untuk penggemar rasa ringan dan segar.</td>
+        <td>Rp134.850</td>
+      </tr>
+      <tr>
+        <td><img src="meat.jpeg" alt="Meat Lovers" width="170" height="172"></td>
+        <td>Meat Lovers Pizza</td>
+        <td>Pizza yang penuh dengan kombinasi daging sapi, sosis, dan pepperoni, menawarkan rasa daging yang kaya dan gurih di setiap gigitan.</td>
+        <td>Rp179.850</td>
+      </tr>
+      <tr>
+        <td><img src="mushroom.jpeg" alt="Mushroom" width="170" height="172"></td>
+        <td>Mushroom Pizza</td>
+        <td>Pizza dengan topping jamur segar yang dipanggang dengan mentega bawang dan rempah-rempah, menciptakan rasa gurih yang hangat dan lezat di setiap gigitan.</td>
+        <td>Rp127.350</td>
+      </tr>
+      <tr>
+        <td><img src="margherita.jpeg" alt="Margherita" width="170" height="172"></td>
+        <td>Margherita Pizza</td>
+        <td>Pizza sederhana dengan topping tomat segar, daun basil, dan keju mozzarella, memberikan rasa yang ringan namun penuh cita rasa alami yang segar.</td>
+        <td>Rp119.850</td>
+      </tr>
+      <tr>
+        <td><img src="spicytuna.jpeg" alt="Tuna" width="170" height="172"></td>
+        <td>Spicy Tuna Pizza</td>
+        <td>Pizza dengan tuna pedas yang dicampur dengan cabai dan keju mozzarella, memberikan rasa pedas yang menyegarkan dengan sentuhan laut yang kaya.</td>
+        <td>Rp142.350</td>
+      </tr>
+      <tr>
+        <td><img src="beefrendang.jpeg" alt="Rendang" width="170" height="172"></td>
+        <td>Beef Rendang Pizza</td>
+        <td>Pizza dengan topping rendang daging yang dimasak dengan bumbu rempah khas Indonesia, memberikan cita rasa pedas, gurih, dan kaya yang menyatu dengan keju mozzarella yang dipadukan dengan adonan khas Italia.</td>
+        <td>Rp187.350</td>
+      </tr>
+      <tr>
+        <th colspan="4">Beverages</th>
+      </tr>
+      <tr>
+        <td><img src="coke.jpeg" alt="Coke" width="170" height="172"></td>
+        <td>Coke</td>
+        <td>Minuman soft drink yang menyegarkan dengan rasa manis dan sedikit asam, sangat cocok untuk menemani pizza kamu.</td>
+        <td>Rp29.850</td>
+      </tr>
+      <tr>
+        <td><img src="sprite.jpeg" alt="Sprite" width="170" height="172"></td>
+        <td>Sprite</td>
+        <td>Minuman soft drink rasa lemon-lime yang memberikan sensasi segar dan ringan di setiap tegukan.</td>
+        <td>Rp29.850</td>
+      </tr>
+      <tr>
+        <td><img src="lemontea.jpeg" alt="Lemon Tea" width="170" height="172"></td>
+        <td>Lemon Tea</td>
+        <td>Teh manis dingin yang dipadukan dengan rasa lemon yang segar, menciptakan minuman yang menyejukkan dan menyegarkan dahaga.</td>
+        <td>Rp37.350</td>
+      </tr>
+      <tr>
+        <td><img src="juice.jpeg" alt="Orange Juice" width="170" height="172"></td>
+        <td>Orange Juice</td>
+        <td>Jus jeruk segar yang diperas langsung dari buah jeruk, memberikan rasa manis alami dan kesegaran vitamin C dalam setiap tegukan.</td>
+        <td>Rp44.850</td>
+      </tr>
+      <tr>
+        <td><img src="water.jpeg" alt="Mineral Water" width="170" height="172"></td>
+        <td>Mineral Water</td>
+        <td>Air mineral yang segar dan menyehatkan, pilihan sempurna untuk menemani santapan pizza tanpa rasa berlebih.</td>
+        <td>Rp22.350</td>
+      </tr>
+    </table>
+  </section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: info@houseofpizza.com</p>
+  <p>Phone: +62 812 3456 7890</p>
+  <p>Address: Jl. Real Kia Pai No. 17, Jakarta</p>
+
+  <h3>Send Us a Message</h3>
+  <form action="mailto:info@houseofpizza.com" method="post" enctype="text/plain">
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<section id="order">
+  <h2>Order Now</h2>
+  <p>Ingin menikmati pizza hangat? Pesan sekarang dan nikmati pizza favoritmu di rumah!</p>
+
+  <form action="submit_order.php" method="POST">
+    <label for="pizza">Choose Your Pizza:</label><br>
+    <select id="pizza" name="pizza" required>
+      <option value="pepperoni">Pepperoni Pizza</option>
+      <option value="cheese_overload">Cheese Overload Pizza</option>
+      <option value="bbq_chicken">BBQ Chicken Pizza</option>
+      <option value="hawaiian">Hawaiian Pizza</option>
+      <option value="veggie">Veggie Delight Pizza</option>
+      <option value="meat_lovers">Meat Lovers Pizza</option>
+      <option value="mushroom">Mushroom Pizza</option>
+      <option value="margherita">Margherita Pizza</option>
+      <option value="spicy_tuna">Spicy Tuna Pizza</option>
+      <option value="beef_rendang">Beef Rendang Pizza</option>
+    </select><br><br>
+
+    <label for="quantity">Quantity:</label><br>
+    <input type="number" id="quantity" name="quantity" min="1" value="1" required><br><br>
+	
+  <form action="submit_order.php" method="POST">
+    <label for="drink">Choose Your Drink:</label><br>
+    <select id="drink" name="drink" required>
+      <option value="coke">Coke</option>
+      <option value="sprite">Sprite</option>
+      <option value="lemon_tea">Lemon Tea</option>
+      <option value="orange_juice">Orange Juice</option>
+      <option value="air_mineral">Air Mineral</option>
+	 </select><br><br>
+
+	<label for="quantity">Quantity:</label><br>
+    <input type="number" id="quantity" name="quantity" min="1" value="1" required><br><br>
+	
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="address">Delivery Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+
+    <button type="submit">Place Order</button>
+  </form>
+</section>
+
+
+  <script>
+    function showPage(pageId) {
+      const pages = document.querySelectorAll('section');
+      pages.forEach(page => page.classList.remove('active'));
+      document.getElementById(pageId).classList.add('active');
+    }
+  </script>
+  
+  
+  <p>&nbsp;</p>
+	  	  <p align="center" class="style18">&copy; 2025 The House Of Pizza</p>      
+      <p class="style18" data-start="463" data-end="492">&nbsp;</p>
+</body>
+</html>
